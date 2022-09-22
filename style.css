@@ -4,26 +4,34 @@ body {
 
 .header {
 	text-align: center;
-	margin: auto
+	margin: auto;
+	background-color: lightgreen;
+	box-sizing: border-box;
 }
 
 .header h1 {
 	font-size: 75px;
 }
 
-.header li {
+.navbar {
+	background-color: salmon;
+	margin: auto;
+	padding: 5px 5px 5px 5px;
+}
+
+.navbar li {
 		display: inline-block;
 		margin-right: 100px;
 		margin-left: 100px;
 }
 
-.header li a {
+.navbar li a {
 	text-decoration: none;
 	color: black;
+	transition: 0.2s ease;
 }
 
-.header li a:hover {
+.navbar li a:hover {
 	font-size: 1.5em;
-	transition: 0.2s;
 	color: blue;
 }
