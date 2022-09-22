@@ -4,8 +4,6 @@ body {
 
 .header {
 	text-align: center;
-	margin: auto;
-	background-color: lightgreen;
 	box-sizing: border-box;
 }
 
@@ -34,4 +32,9 @@ body {
 .navbar li a:hover {
 	font-size: 1.5em;
 	color: blue;
+}
+
+.banner {
+	height: 200px;
+	background-color: lightblue;
 }
