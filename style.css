@@ -1,3 +1,18 @@
 body {
 	font-family: arial;
 }
+
+.header {
+	text-align: center;
+	margin: auto
+}
+
+.header h1 {
+	font-size: 75px;
+}
+
+.header li {
+		display: inline-block;
+		margin-right: 100px;
+		margin-left: 100px;
+}]
